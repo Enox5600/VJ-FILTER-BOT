@@ -68,7 +68,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'oxyver_owner') # owner username 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Enox_Movie_Request_Group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Oxyver')
-TUTORIAL = environ.get('TUTORIAL', 'https://youtu.be/q2HAhimIyIw?si=b1iqnQfs2GAVcyjc')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Netflix_premi/9')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Oxyver_Support') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -85,7 +85,7 @@ SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "False"), False)
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
@@ -98,12 +98,12 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Netflix_premi/9')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantlinks.co')
-SHORTLINK_API = environ.get('SHORTLINK_API', '900da68005a2ef7cce728147cd8c08e27a12080b')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '67d480a8499f909988a9806d7661459ec0bc3782')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
