@@ -2,7 +2,7 @@
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-import logging, asyncio, os, re, random, pytz, aiohttp, requests, string, json, http.client, Cinemagoer, imdb
+import logging, asyncio, os, re, random, pytz, aiohttp, requests, string, json, http.client, imdb
 from info import *
 from imdb import Cinemagoer 
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
