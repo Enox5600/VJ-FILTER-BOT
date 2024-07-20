@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'OxyverBot')
 API_ID = int(environ.get('API_ID', '27970286'))
 API_HASH = environ.get('API_HASH', 'a5f340fa2d9e48db34caffeb3d6786f9')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5813755577:AAH1urtpGfXVPUJwhZXCGeKCVHVnVTxwpkg")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5813755577:AAHE-b-MleY8SqtRmvtHMga3CxP57LEvDpU")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
